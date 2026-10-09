@@ -1,73 +1,88 @@
-# Welcome to your Lovable project
+# 🌊 Weather Wise Aid — Coastal Prediction AI System
 
-## Project info
+An Advanced Multi-Agentic AI Framework for Coastal Disaster Risk Assessment, Early Warning Alerts, and Decision Support.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 📌 Project Overview
 
-There are several ways of editing your application.
+**Weather Wise Aid** is an AI-powered coastal disaster forecasting and risk management platform designed to help coastal communities, emergency responders, and environmental authorities predict, prepare for, and respond to extreme weather events.
 
-**Use Lovable**
+By combining real-time meteorological data, oceanographic reanalysis (ERA5, CMEMS, SST), and specialized multi-agent AI prediction models, the system delivers precise risk assessments for floods, cyclones, and heavy rainfall.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ Key Features
 
-**Use your preferred IDE**
+### 🌊 1. Flood Prediction Agent
+- **Real-Time Water Level Monitoring**: Tracks river discharge, coastal tide levels, and rainfall accumulation.
+- **Inundation Risk Modeling**: Evaluates flood severity and provides regional risk badges and alerts.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🌀 2. Cyclone Prediction Agent
+- **Sea Surface Temperature (SST) & OHC Analysis**: Tracks Ocean Heat Content and sea surface temperature anomalies.
+- **Trajectory & Intensity Forecasting**: Predicts cyclone pathways, landfall estimations, and wind speeds.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🌧️ 3. Rainfall Forecast Agent
+- **High-Resolution Precipitation Models**: Visualizes short-term and long-term rainfall trends.
+- **ERA5 & Satellite Data Synthesis**: Integrates historical and real-time atmospheric reanalysis datasets.
 
-Follow these steps:
+### 🚨 4. Emergency Alerts & Risk Monitoring
+- **Real-Time Risk Gauges**: Dynamic visualization of current threat levels (Safe, Advisory, Warning, Critical).
+- **Broadcast Alarm System**: Audio and visual emergency alert notifications for urgent weather events.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🤖 5. AI Emergency Chatbot Assistant
+- Interactive AI assistant for instant weather queries, safety protocols, and emergency evacuation guidelines.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 📊 6. Comprehensive Analytics & Incident Reports
+- Detailed historical risk charts and exportable analytical reports for decision-makers.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 🛠️ Technology Stack
+
+- **Framework**: React 18 with TypeScript & Vite
+- **Styling**: Tailwind CSS & shadcn/ui components
+- **Animations**: Framer Motion
+- **Data Visualization**: Recharts
+- **State Management & Routing**: React Router v6 & TanStack Query
+- **Data Processing**: Python (ERA5, CMEMS, SST NetCDF dataset scripts)
+
+---
+
+## 🚀 Getting Started Locally
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [npm](https://www.npmjs.com/) or [bun](https://bun.sh/)
+
+### Installation & Local Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Krisha-here/Weather-wise-aid.git
+
+# 2. Navigate into the project folder
+cd Weather-wise-aid/weather-wise-aid-main
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open `http://localhost:8080` in your browser to view the application.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🌐 Live Deployment
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This repository is configured with GitHub Actions for automatic deployment to **GitHub Pages**.
 
-## What technologies are used for this project?
+- **Live Site**: [https://krisha-here.github.io/Weather-wise-aid/](https://krisha-here.github.io/Weather-wise-aid/)
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📄 License
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is open source and available under the [MIT License](LICENSE).
